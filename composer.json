@@ -1,0 +1,23 @@
+{
+  "name": "ddkaka/bashim",
+  "description": "bash.im quotes",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fuzzy",
+      "email": "iiojiobuhka@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "~6.0",
+    "sunra/php-simple-html-dom-parser": "dev-master",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bashim": ["src/"]
+    }
+  }
+}
